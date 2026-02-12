@@ -127,18 +127,6 @@ Actual: 1         8,724          5,429
 
 ---
 
-## Visualisations
-
-The project includes five key visualisations:
-
-1. **Correlation Heatmap** — Numerical feature correlations (strong positive correlation found between surgeries/hospitalisation and lab tests/drugs)
-2. **Readmission Bar Chart** — ~54% not readmitted vs ~46% readmitted
-3. **Logistic Regression Coefficients Plot** — With 95% confidence intervals; `number_inpatient` is the dominant predictor
-4. **ROC Curve** — AUC = 0.65, indicating moderate discriminative ability
-5. **Predicted Probability Distribution** — Most patients cluster between 0.4–0.5 predicted probability, with a small high-risk tail near 0.9
-
----
-
 ## Requirements
 
 ```
